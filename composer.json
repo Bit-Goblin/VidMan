@@ -1,0 +1,23 @@
+{
+    "name": "bit-goblin/vidman",
+    "description": "Self-hosted video project manager",
+    "type": "project",
+    "license": "BSD-2-Clause",
+    "autoload": {
+        "psr-4": {
+            "BitGoblin\\Vidman\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gregory Ballantine",
+            "email": "gballantine@metaunix.net"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.6",
+        "slim/twig-view": "^3.3"
+    }
+}
